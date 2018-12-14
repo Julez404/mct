@@ -7,6 +7,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "normal_mode", "normal_mode\
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "timerCompareMatch", "timerCompareMatch\timerCompareMatch.cproj", "{563AEEFF-9C1B-4180-9673-46E4E2716DAF}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "pwm", "pwm\pwm.cproj", "{799D66F3-BD49-4BB9-8EC7-78D16B7FF5F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -21,6 +23,10 @@ Global
 		{563AEEFF-9C1B-4180-9673-46E4E2716DAF}.Debug|AVR.Build.0 = Debug|AVR
 		{563AEEFF-9C1B-4180-9673-46E4E2716DAF}.Release|AVR.ActiveCfg = Release|AVR
 		{563AEEFF-9C1B-4180-9673-46E4E2716DAF}.Release|AVR.Build.0 = Release|AVR
+		{799D66F3-BD49-4BB9-8EC7-78D16B7FF5F5}.Debug|AVR.ActiveCfg = Debug|AVR
+		{799D66F3-BD49-4BB9-8EC7-78D16B7FF5F5}.Debug|AVR.Build.0 = Debug|AVR
+		{799D66F3-BD49-4BB9-8EC7-78D16B7FF5F5}.Release|AVR.ActiveCfg = Release|AVR
+		{799D66F3-BD49-4BB9-8EC7-78D16B7FF5F5}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
