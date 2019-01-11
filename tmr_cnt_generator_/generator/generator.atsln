@@ -7,6 +7,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "generator", "generator.cpro
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "measureDevice", "..\measureDevice\measureDevice.cproj", "{722FDCE6-3C64-4D03-A34B-6B9F32D7DE79}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "meassure_capture_unit", "..\meassure_capture_unit\meassure_capture_unit.cproj", "{F28642D5-2FE3-427A-AEFD-CD421D61AC73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -21,6 +23,10 @@ Global
 		{722FDCE6-3C64-4D03-A34B-6B9F32D7DE79}.Debug|AVR.Build.0 = Debug|AVR
 		{722FDCE6-3C64-4D03-A34B-6B9F32D7DE79}.Release|AVR.ActiveCfg = Release|AVR
 		{722FDCE6-3C64-4D03-A34B-6B9F32D7DE79}.Release|AVR.Build.0 = Release|AVR
+		{F28642D5-2FE3-427A-AEFD-CD421D61AC73}.Debug|AVR.ActiveCfg = Debug|AVR
+		{F28642D5-2FE3-427A-AEFD-CD421D61AC73}.Debug|AVR.Build.0 = Debug|AVR
+		{F28642D5-2FE3-427A-AEFD-CD421D61AC73}.Release|AVR.ActiveCfg = Release|AVR
+		{F28642D5-2FE3-427A-AEFD-CD421D61AC73}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
