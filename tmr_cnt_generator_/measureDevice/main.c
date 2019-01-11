@@ -1,17 +1,10 @@
-/*
-* measureDevice.c
-*
-* Created: 08.01.2019 17:19:34
-* Author : julia
-*/
-
 #include <avr/io.h>
 #include <avr/interrupt.h>
 
 volatile uint8_t tmr2_OV_took_place = 0;
 
-void initPort();
-void initTmr();
+void initPort(void);
+void initTmr(void);
 
 int main(void)
 {
@@ -24,14 +17,14 @@ int main(void)
 	}
 }
 
-void initPort()
+void initPort(void)
 {
 DDRD = 0;
 PORTD = 0;
 }
 
 
-void initTmr()
+void initTmr(void)
 {
 	//TIMER 1 Generator Count
 	TCCR1A = 0;
@@ -47,14 +40,24 @@ void initTmr()
 
 ISR(TIMER2_OVF_vect)
 {
-	if(tmr2_OV_took_place >= 12)
-	{
-//		Serial.Print(TCNT1/0.19661);
-		TCNT1 = 0;
-		tmr2_OV_took_place = 0;
-	}
-	else
-	{
-		tmr2_OV_took_place++;
-	}
+  uint16_t temp = TCNT1;
+  if(tmr2_OV_took_place >= 11)
+  {
+	  TCNT1 = 0;
+	  // ARDUINO IDE Specific
+	  /*	
+	  Serial.print("Frequenz: ");
+	  double freq = temp/0.19661;
+	  Serial.print(freq);
+	  Serial.println(" Hz");
+	  Serial.print("Periodendauer: ");
+	  Serial.print(1000/freq);
+	  Serial.println(" ms\n");
+	 */ 
+	  tmr2_OV_took_place = 0;
+  }
+  else
+  {
+	  tmr2_OV_took_place++;
+  }
 }

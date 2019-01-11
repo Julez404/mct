@@ -8,7 +8,7 @@
 #define PRESCALER_32
 #define PRESCALER_64	
 #define PRESCALER_128
-
+#define PRESCALER_256
 #define PRESCALER_1024
 */
 
