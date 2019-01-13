@@ -9,6 +9,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "measureDevice", "..\measure
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "meassure_capture_unit", "..\meassure_capture_unit\meassure_capture_unit.cproj", "{F28642D5-2FE3-427A-AEFD-CD421D61AC73}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "gen_measure-capture_combined", "..\gen_measure-capture_combined\gen_measure-capture_combined.cproj", "{36EBABE5-4F06-4FAE-8B20-BEB97E051AD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -27,6 +29,10 @@ Global
 		{F28642D5-2FE3-427A-AEFD-CD421D61AC73}.Debug|AVR.Build.0 = Debug|AVR
 		{F28642D5-2FE3-427A-AEFD-CD421D61AC73}.Release|AVR.ActiveCfg = Release|AVR
 		{F28642D5-2FE3-427A-AEFD-CD421D61AC73}.Release|AVR.Build.0 = Release|AVR
+		{36EBABE5-4F06-4FAE-8B20-BEB97E051AD6}.Debug|AVR.ActiveCfg = Debug|AVR
+		{36EBABE5-4F06-4FAE-8B20-BEB97E051AD6}.Debug|AVR.Build.0 = Debug|AVR
+		{36EBABE5-4F06-4FAE-8B20-BEB97E051AD6}.Release|AVR.ActiveCfg = Release|AVR
+		{36EBABE5-4F06-4FAE-8B20-BEB97E051AD6}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
