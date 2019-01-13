@@ -336,4 +336,4 @@ ASALocalRun/
 
 *.asmproj
 *.componentinfo.xml
-*.cproj
+#*.cproj
