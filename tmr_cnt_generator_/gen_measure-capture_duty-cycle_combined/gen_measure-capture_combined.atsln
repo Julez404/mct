@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "gen_measure-capture_combined", "gen_measure-capture_combined.cproj", "{36EBABE5-4F06-4FAE-8B20-BEB97E051AD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36EBABE5-4F06-4FAE-8B20-BEB97E051AD6}.Debug|AVR.ActiveCfg = Debug|AVR
+		{36EBABE5-4F06-4FAE-8B20-BEB97E051AD6}.Debug|AVR.Build.0 = Debug|AVR
+		{36EBABE5-4F06-4FAE-8B20-BEB97E051AD6}.Release|AVR.ActiveCfg = Release|AVR
+		{36EBABE5-4F06-4FAE-8B20-BEB97E051AD6}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
